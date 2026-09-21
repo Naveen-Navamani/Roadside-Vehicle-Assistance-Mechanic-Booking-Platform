@@ -1,0 +1,272 @@
+{
+  "mechanics": [
+    {
+      "id": "mech-1",
+      "name": "Marcus Vance",
+      "phone": "+1 (415) 890-2311",
+      "rating": 5,
+      "completedJobs": 343,
+      "status": "online",
+      "specialties": [
+        "flat_tire",
+        "battery_jump",
+        "engine_diagnostic",
+        "towing"
+      ],
+      "serviceVehicle": "Ford F-350 Heavy Duty Flatbed Tow",
+      "location": {
+        "lat": 37.7812,
+        "lng": -122.4089,
+        "address": "4th & Market St, SoMa"
+      },
+      "verified": true,
+      "certifications": [
+        "ASE Master Automobile Technician",
+        "EV High Voltage Certified",
+        "Tow Heavy Rigging"
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80",
+      "experienceYears": 12,
+      "licenseNumber": "ASE-CA-89211",
+      "currentBookingId": null
+    },
+    {
+      "id": "mech-2",
+      "name": "Elena Rostova",
+      "phone": "+1 (415) 743-9941",
+      "rating": 4.88,
+      "completedJobs": 219,
+      "status": "online",
+      "specialties": [
+        "flat_tire",
+        "lockout",
+        "battery_jump",
+        "fuel_delivery"
+      ],
+      "serviceVehicle": "Mercedes Sprinter Rapid Diagnostic Van",
+      "location": {
+        "lat": 37.7648,
+        "lng": -122.4218,
+        "address": "Valencia & 18th, Mission District"
+      },
+      "verified": true,
+      "certifications": [
+        "Certified Automotive Locksmith (CAL)",
+        "Emergency Roadside Dispatch Level 3"
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "experienceYears": 7,
+      "licenseNumber": "CAL-US-44102"
+    },
+    {
+      "id": "mech-3",
+      "name": "Darius Thorne",
+      "phone": "+1 (415) 612-4480",
+      "rating": 4.92,
+      "completedJobs": 410,
+      "status": "online",
+      "specialties": [
+        "engine_diagnostic",
+        "brake_service",
+        "battery_jump",
+        "drop_off"
+      ],
+      "serviceVehicle": "RAM ProMaster Mobile Repair Workshop",
+      "location": {
+        "lat": 37.7942,
+        "lng": -122.4005,
+        "address": "California & Battery St, Financial District"
+      },
+      "verified": true,
+      "certifications": [
+        "Bosch Diagnostics Specialist",
+        "ASE Advanced Engine Performance"
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "experienceYears": 15,
+      "licenseNumber": "ASE-CA-11094"
+    },
+    {
+      "id": "mech-4",
+      "name": "Liam Chen",
+      "phone": "+1 (415) 554-1290",
+      "rating": 4.79,
+      "completedJobs": 135,
+      "status": "online",
+      "specialties": [
+        "battery_jump",
+        "fuel_delivery",
+        "flat_tire"
+      ],
+      "serviceVehicle": "Toyota Tacoma Rapid Response 4x4",
+      "location": {
+        "lat": 37.7885,
+        "lng": -122.4324,
+        "address": "Fillmore & Bush St, Pacific Heights"
+      },
+      "verified": true,
+      "certifications": [
+        "AAA Certified Roadside Responder",
+        "EV Rapid Assist Specialist"
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "experienceYears": 5,
+      "licenseNumber": "AAA-CA-90431"
+    },
+    {
+      "id": "mech-5",
+      "name": "Sarah Jenkins",
+      "phone": "+1 (415) 918-6723",
+      "rating": 4.7,
+      "completedJobs": 82,
+      "status": "online",
+      "specialties": [
+        "towing",
+        "brake_service",
+        "drop_off"
+      ],
+      "serviceVehicle": "International CV515 Dual Wheel Recovery Truck",
+      "location": {
+        "lat": 37.7511,
+        "lng": -122.4182,
+        "address": "Cesar Chavez & Potrero Ave"
+      },
+      "verified": false,
+      "certifications": [
+        "Commercial Driver Class A",
+        "WreckMaster Level 4"
+      ],
+      "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "experienceYears": 4,
+      "licenseNumber": "WM-US-66723"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "BK-804613",
+      "customerName": "Alex Mercer",
+      "customerPhone": "+1 (415) 555-0192",
+      "serviceType": "flat_tire",
+      "vehicleType": "suv",
+      "vehicleModel": "Tesla Model Y",
+      "licensePlate": "7XYZ892",
+      "notes": "Right rear flat tire on shoulder",
+      "breakdownLocation": {
+        "lat": 37.7833,
+        "lng": -122.408,
+        "address": "Market St & 5th Ave, San Francisco, CA"
+      },
+      "dropOffLocation": null,
+      "status": "completed",
+      "mechanicId": "mech-1",
+      "estimatedCost": 104.75,
+      "costBreakdown": {
+        "basePrice": 51.75,
+        "distancePrice": 0,
+        "vehicleMultiplier": 1.15,
+        "urgencyFee": 18,
+        "partsCost": 35,
+        "dropOffFee": 0,
+        "total": 104.75
+      },
+      "parts": [
+        {
+          "id": "part-i1i2yp",
+          "name": "Radial Tire Patch Kit",
+          "price": 35,
+          "quantity": 1
+        }
+      ],
+      "etaMinutes": 4,
+      "distanceKm": 0.2,
+      "currentMechanicLocation": {
+        "lat": 37.7812,
+        "lng": -122.4089,
+        "address": "4th & Market St, SoMa"
+      },
+      "createdAt": "2026-09-19T16:05:51.143Z",
+      "updatedAt": "2026-09-19T16:05:51.176Z",
+      "timeline": [
+        {
+          "status": "pending",
+          "timestamp": "2026-09-19T16:05:51.143Z",
+          "note": "Emergency roadside request created."
+        },
+        {
+          "status": "broadcasting",
+          "timestamp": "2026-09-19T16:05:51.143Z",
+          "note": "Dispatch broadcast sent to verified mechanic: Marcus Vance"
+        },
+        {
+          "status": "accepted",
+          "timestamp": "2026-09-19T16:05:51.157Z",
+          "note": "Job accepted by Marcus Vance. Preparing response unit."
+        },
+        {
+          "status": "en_route",
+          "timestamp": "2026-09-19T16:05:51.157Z",
+          "note": "Mechanic is en route with service vehicle."
+        },
+        {
+          "status": "completed",
+          "timestamp": "2026-09-19T16:05:51.172Z",
+          "note": "Patch installed, tire inflated to 42 PSI"
+        }
+      ],
+      "rating": {
+        "stars": 5,
+        "feedback": "Incredible response! Arrived in minutes and fixed right away."
+      }
+    },
+    {
+      "id": "BK-431071",
+      "customerName": "Alex Mercer",
+      "customerPhone": "+1 (415) 555-0192",
+      "serviceType": "flat_tire",
+      "vehicleType": "suv",
+      "vehicleModel": "Tesla Model Y",
+      "licensePlate": "7XYZ892",
+      "notes": "Right rear tire blown on highway shoulder.",
+      "breakdownLocation": {
+        "lat": 37.7833,
+        "lng": -122.408,
+        "address": "Market St & 5th Ave, San Francisco, CA"
+      },
+      "dropOffLocation": null,
+      "status": "broadcasting",
+      "mechanicId": "mech-1",
+      "estimatedCost": 69.75,
+      "costBreakdown": {
+        "basePrice": 51.75,
+        "distancePrice": 0,
+        "vehicleMultiplier": 1.15,
+        "urgencyFee": 18,
+        "partsCost": 0,
+        "dropOffFee": 0,
+        "total": 69.75
+      },
+      "parts": [],
+      "etaMinutes": 4,
+      "distanceKm": 0.2,
+      "currentMechanicLocation": {
+        "lat": 37.7812,
+        "lng": -122.4089,
+        "address": "4th & Market St, SoMa"
+      },
+      "createdAt": "2026-09-19T16:22:00.374Z",
+      "updatedAt": "2026-09-19T16:22:00.374Z",
+      "timeline": [
+        {
+          "status": "pending",
+          "timestamp": "2026-09-19T16:22:00.375Z",
+          "note": "Emergency roadside request created."
+        },
+        {
+          "status": "broadcasting",
+          "timestamp": "2026-09-19T16:22:00.375Z",
+          "note": "Dispatch broadcast sent to verified mechanic: Marcus Vance"
+        }
+      ]
+    }
+  ]
+}
